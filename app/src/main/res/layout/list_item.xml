@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/list_bg">
+        <ImageView
+            android:id="@+id/imgsong"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/moon_music">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtsongName"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/imgsong"
+            android:padding="6dp"
+            android:text="Song Name"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
